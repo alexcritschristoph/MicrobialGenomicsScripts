@@ -1,7 +1,5 @@
 # MicrobialGenomicsScripts
-A selection of short scripts for analyzing microbial genomes
-
-##I have created this repository as a place to store and share any useful scripts for analyzing microbial genomes.
+A selection of short scripts for analyzing microbial genomes. I have created this repository as a place to store and share any useful scripts for analyzing microbial genomes.
 
 ##Usage:
 
