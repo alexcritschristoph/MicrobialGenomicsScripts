@@ -33,6 +33,11 @@ Filters a contig file to a minimum contig length.
 
 Basic demonstration of how to import training data and create a random forest classifier using sklearn.
 
+*concat_alignments.py*
+
+concatenating multiple gene / protein alignments.
+`python concat_alignments.py ./directory_with_alignments/*.fa`
+
 *get_genomes.py*
 
 Automatically / recursively downloads genomes from NCBI's FTP.
