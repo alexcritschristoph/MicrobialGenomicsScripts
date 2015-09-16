@@ -9,6 +9,12 @@ Calculates GC% for a window size across a genome. Default is 10 kbp, and can be 
 
 `python gc_window.py genome.fna`
 
+*translate_all_frames.py*
+
+Translates a FASTA file of DNA sequences in all 6 reading frames, ignoring start / stops. 
+
+`python translate_all_frames.py sequences.fna`
+
 *isoelectric.py*
 
 Calculates the isoelectric points for all proteins in a proteome and outputs in a list which can be easily imported into R . Useful for showing the isoelectric point distribution of a new halophilic proteome.
