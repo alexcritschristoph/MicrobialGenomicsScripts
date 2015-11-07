@@ -21,6 +21,13 @@ Calculates the isoelectric points for all proteins in a proteome and outputs in 
 
 `python isoelectric.py proteins.faa`
 
+
+*codon_freq.py*
+
+Calculates codon frequencies for a set of sequences in a FASTA file (e.g. gene sequences, such as in a .ffn file).  
+
+`python codon_freq.py genes.ffn`
+
 *simulate_assembly.py*
 
 Naively simulates a metagenomic assembly by taking in a directory of genomes and generating randomly sized and spaced contigs from those genomes.
