@@ -13,7 +13,7 @@ for s in l:
 		     contigs[s.id] = s.seq
 		     contig_lengths[s.id] = len(str(s.seq))
 
-sorted_x = sorted(x.items(), key=operator.itemgetter(0))
+sorted_x = sorted(contig_lengths.items(), key=operator.itemgetter(0))
 sorted_x.reverse()
 
 for i in range(0,10):
