@@ -3,6 +3,20 @@ A selection of (very) short scripts for analyzing microbial genomes. I have crea
 
 ###Usage:
 
+*calc_coverage_breadth.py*
+
+Calculates number of reads, coverage, and breadth of coverage of reads mapping to a set of regions (presumably genes). Called like so:
+
+`python count_reads.py genes.pos example.sorted.bam 200`
+
+Where genes.pos is a file formatted like:
+```
+14_0903_02_20cm_scaffold_13826 7320 7544
+14_0903_02_20cm_scaffold_5262 27 1703
+14_0903_02_20cm_scaffold_5308 3879 5147
+14_0903_02_20cm_scaffold_5308 5156 5650
+```
+
 *gc_window.py*
 
 Calculates GC% for a window size across a genome. Default is 10 kbp, and can be changed in the code if needed.
