@@ -28,4 +28,4 @@ for pos in positions:
 			b2 += 1
 			if pileupcolumn.nsegments > 0:
 				b += 1
-print(pos[0] + pos[3] + "\t" + str(pos[1]) + "\t" + str(pos[2]) + "\t" + str(i) + "\t" + str(float(i)*int(read_length) / (pos[2]-pos[1])) + "\t" + str(float(b) / (pos[2]-pos[1])))
+print(pos[0] + "\t" + pos[3] + "\t" + str(pos[1]) + "\t" + str(pos[2]) + "\t" + str(i) + "\t" + str(float(i)*int(read_length) / (pos[2]-pos[1])) + "\t" + str(float(b) / (pos[2]-pos[1])))
